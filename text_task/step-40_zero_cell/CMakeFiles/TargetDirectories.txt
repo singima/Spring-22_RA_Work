@@ -1,0 +1,10 @@
+/home/sean/Spring22_RA_Work/text_task/step-40_zero_cell/CMakeFiles/rebuild_cache.dir
+/home/sean/Spring22_RA_Work/text_task/step-40_zero_cell/CMakeFiles/edit_cache.dir
+/home/sean/Spring22_RA_Work/text_task/step-40_zero_cell/CMakeFiles/strip_comments.dir
+/home/sean/Spring22_RA_Work/text_task/step-40_zero_cell/CMakeFiles/distclean.dir
+/home/sean/Spring22_RA_Work/text_task/step-40_zero_cell/CMakeFiles/runclean.dir
+/home/sean/Spring22_RA_Work/text_task/step-40_zero_cell/CMakeFiles/release.dir
+/home/sean/Spring22_RA_Work/text_task/step-40_zero_cell/CMakeFiles/debug.dir
+/home/sean/Spring22_RA_Work/text_task/step-40_zero_cell/CMakeFiles/run.dir
+/home/sean/Spring22_RA_Work/text_task/step-40_zero_cell/CMakeFiles/info.dir
+/home/sean/Spring22_RA_Work/text_task/step-40_zero_cell/CMakeFiles/step-40-test.dir

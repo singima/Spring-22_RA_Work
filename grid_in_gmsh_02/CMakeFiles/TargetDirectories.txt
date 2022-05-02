@@ -1,0 +1,10 @@
+/home/sean/Spring22_RA_Work/gridin_negative_cells/CMakeFiles/rebuild_cache.dir
+/home/sean/Spring22_RA_Work/gridin_negative_cells/CMakeFiles/info.dir
+/home/sean/Spring22_RA_Work/gridin_negative_cells/CMakeFiles/edit_cache.dir
+/home/sean/Spring22_RA_Work/gridin_negative_cells/CMakeFiles/strip_comments.dir
+/home/sean/Spring22_RA_Work/gridin_negative_cells/CMakeFiles/distclean.dir
+/home/sean/Spring22_RA_Work/gridin_negative_cells/CMakeFiles/runclean.dir
+/home/sean/Spring22_RA_Work/gridin_negative_cells/CMakeFiles/release.dir
+/home/sean/Spring22_RA_Work/gridin_negative_cells/CMakeFiles/debug.dir
+/home/sean/Spring22_RA_Work/gridin_negative_cells/CMakeFiles/run.dir
+/home/sean/Spring22_RA_Work/gridin_negative_cells/CMakeFiles/grid_in_gmsh_02.dir

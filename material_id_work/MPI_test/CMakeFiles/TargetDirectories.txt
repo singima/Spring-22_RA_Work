@@ -1,0 +1,10 @@
+/home/sean/Spring22_RA_Work/material_id_work/MPI_test/CMakeFiles/rebuild_cache.dir
+/home/sean/Spring22_RA_Work/material_id_work/MPI_test/CMakeFiles/info.dir
+/home/sean/Spring22_RA_Work/material_id_work/MPI_test/CMakeFiles/edit_cache.dir
+/home/sean/Spring22_RA_Work/material_id_work/MPI_test/CMakeFiles/strip_comments.dir
+/home/sean/Spring22_RA_Work/material_id_work/MPI_test/CMakeFiles/distclean.dir
+/home/sean/Spring22_RA_Work/material_id_work/MPI_test/CMakeFiles/runclean.dir
+/home/sean/Spring22_RA_Work/material_id_work/MPI_test/CMakeFiles/release.dir
+/home/sean/Spring22_RA_Work/material_id_work/MPI_test/CMakeFiles/run.dir
+/home/sean/Spring22_RA_Work/material_id_work/MPI_test/CMakeFiles/debug.dir
+/home/sean/Spring22_RA_Work/material_id_work/MPI_test/CMakeFiles/step-40.dir

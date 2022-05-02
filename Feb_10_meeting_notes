@@ -1,0 +1,93 @@
+Prep for 2/10 meeting
+
+- Prep for step-40 (kinda know what to do but look over again, make sure it works)
+
+- write_vtu_in_parallel function
+	- #ifndef is a C++ function that tells us whether or not DEAL_II_WITH_MPI
+	  has been defined or not.  So if it hasn't then it just writes the vtu
+	  file as usual
+	  
+	- Few lines after the else statement pretty much do standard MPI stuff
+	
+	- Header is written when "myrank == 0", so the first processor.
+	
+- MPI_File_* functions Timo asked me to check out
+	- Based webpage http://mpi.deino.net/mpi_functions/
+	
+	- MPI_File_open(comm,      // Communicator handle
+			 filename, // name of file to open
+			 amode,    // file access mode
+			 MPI_Info, // info object
+			 MPI_File  // out file handle
+			 )
+		- In Deal.II, comm is an input to the main function
+			      not sure where the next two inputs are from
+			      the last two are declared earlier from their classes 
+	
+	- MPI_File_set_size(file_handle, 	// name of file (duh)
+			     size_to_truncate  // size of file to truncate to
+			     )
+		- In the main function it opens the "fh" and deletes everything in it
+		  which is why file_handle = fh, and size_to_truncate = 0.
+		  
+	- MPI_File_write( MPI_file,	// file handle
+			  buf,		// initial address of buffer
+			  count,	// number of elements in buffer
+			  datatype,	// datatype of each buffer type
+			  status	// status object
+			  )	
+		- Deal.II takes in the fh file in the first input, where we write stuff
+		  not entirely sure what this buffer stuff is, second input
+		  number of elements is the size of the header, cuz we're writing header
+		  not entirely sure about last two inputs, second one means status isn't needed(?)
+		  
+	- MPI_File_seek_shared(MPI_File,	// file handle input
+				 MPI_Offset,	// file offset (integer)
+				 whence	// update mode (state)
+				 )
+		- Function isn't super obvious to me.
+		  Updates the shared file pointer according to "whence"
+		  Honestly don't super understand this one.
+		  
+	- MPI_File_write_ordered(MPI_file,	// obvious
+				  buf,		// buffer
+				  count,	// number of elements in each buffer
+				  datatype,	// datatype for buffer elements
+				  MPI_status	// status of MPI
+				  )
+		- Website doesn't have much here, but name is self-explanatory I think.
+		  Inputs are also consistent with the rest of what's in the main function
+		  
+	- MPI_File_write_shared(MPI_file,
+				 buf,
+				 count,
+				 datatype,
+				 MPI_status
+				 )
+		- Another write function, something to do with order again. I'm guessing
+		  we do it for the footer because the order is important because it's at
+		  the bottom of the vtu file(?)
+		  
+	- 
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

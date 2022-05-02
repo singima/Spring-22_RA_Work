@@ -1,0 +1,10 @@
+/home/sean/Spring22_RA_Work/material_id_work/gmsh_import/CMakeFiles/rebuild_cache.dir
+/home/sean/Spring22_RA_Work/material_id_work/gmsh_import/CMakeFiles/info.dir
+/home/sean/Spring22_RA_Work/material_id_work/gmsh_import/CMakeFiles/edit_cache.dir
+/home/sean/Spring22_RA_Work/material_id_work/gmsh_import/CMakeFiles/strip_comments.dir
+/home/sean/Spring22_RA_Work/material_id_work/gmsh_import/CMakeFiles/distclean.dir
+/home/sean/Spring22_RA_Work/material_id_work/gmsh_import/CMakeFiles/runclean.dir
+/home/sean/Spring22_RA_Work/material_id_work/gmsh_import/CMakeFiles/release.dir
+/home/sean/Spring22_RA_Work/material_id_work/gmsh_import/CMakeFiles/debug.dir
+/home/sean/Spring22_RA_Work/material_id_work/gmsh_import/CMakeFiles/run.dir
+/home/sean/Spring22_RA_Work/material_id_work/gmsh_import/CMakeFiles/grid_in_gmsh_02.dir

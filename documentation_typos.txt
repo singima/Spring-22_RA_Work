@@ -1,0 +1,120 @@
+Some grammatical fixes to the deal.II documentation.
+
+STEP-40
+
+1.) The last sentence of the first paragraph under "Introduction"
+
+"In reality, programs like step-17 and step-18 can therefore not be run on more than maybe 100 or 200 processors and even there storing the Triangulation and DoFHandler objects consumes the vast majority of memory on each machine."
+
+Sounds weird, here's the suggested edit.
+
+"In reality, programs like step-17 and step-18 can therefore not be run on more than maybe 100 or 200 processors, and even then storing the Triangulation and DoFHandler objects consumes the vast majority of memory on each machine."
+
+----------------------------------------------------------------------------
+
+2.) The first sentence in the second paragraph in "Introduction"
+
+"to scale to very large problems each processor can only store its own little piece of the Triangulation and DoFHandler objects."
+
+Need a comma after the introductory claus
+
+"to scale to very large problems, each processor can only store its own little piece of the Triangulation and DoFHandler objects."
+
+----------------------------------------------------------------------------
+
+3.) Last sentence of paragraph 2 in "Introduction"
+
+"You need to install and configure p4est but apart from that all of its workings are hidden under the surface of deal.II."
+
+Need commas
+
+"You need to install and configure p4est, but apart from that, all of its workings are hidden under the surface of deal.II."
+
+----------------------------------------------------------------------------
+
+4.) Sentence after the forcing function (Didn't do)
+
+"You can see this in the mesh picture shown below in the results section."
+
+Maybe add a hyperlink to "results section", not imperative but I like hyperlinks.
+
+----------------------------------------------------------------------------
+
+5.) Sentence after #include <deal.II/base/utilities.h> in "The Commented Program"
+
+"The next one provides a class, ConditionOStream that allows us to write code that would output things to a stream (such as std::cout on every processor but throws the text away on all but one of them."
+
+Parenthesis is messed up, let's try
+
+"The next one provides a class, ConditionOStream that allows us to write code that would output things to a stream (such as std::cout) on every processor but throws the text away on all but one of them."
+
+----------------------------------------------------------------------------
+
+6.) After the constraints lines in "The Commented Program"
+
+"To do so we have to tell the sparsity pattern its size but as above there is no way the resulting object will be able to store even a single pointer for each global degree of freedom; the best we can hope for is that it stores information about each locally relevant degree of freedom, i.e. all those that we may ever touch in the process of assembling the matrix (the distributed computing paper has a long discussion why one really needs the locally relevant, and not the small set of locally active degrees of freedom in this context)."
+
+Bunch of commas needed to go here.
+
+"To do so, we have to tell the sparsity pattern its size, but as above, there is no way the resulting object will be able to store even a single pointer for each global degree of freedom; the best we can hope for is that it stores information about each locally relevant degree of freedom, i.e., all those that we may ever touch in the process of assembling the matrix (the distributed computing paper has a lengthy discussion why one really needs the locally relevant, and not the small set of locally active degrees of freedom in this context)."
+
+----------------------------------------------------------------------------
+
+STEP-17
+
+1.)  First sentence under "Overveiw"
+
+"This program does not introduce any new mathematical ideas; in fact, all it does is to do the exact same computations that step-8 already does, but it does so in a different manner: instead of using deal.II's own linear algebra classes, we build everything on top of classes deal.II provides that wrap around the linear algebra implementation of the PETSc library."
+
+Needed some touching up.
+
+"This program does not introduce any new mathematical ideas; in fact, all it does is to do the same computations that step-8 already does, but it does so in a different manner.  Instead of using deal.II's linear algebra classes, we build everything on top of classes deal.II provides that wrap around the linear algebra implementation of the PETSc library."
+
+----------------------------------------------------------------------------
+
+2.) The next sentence
+
+"And since PETSc allows to distribute matrices and vectors across several computers within an MPI network, the resulting code will even be able to solve the problem in parallel."
+
+Needed some touching up.
+
+"And since PETSc allows the distribution of matrices and vectors across several computers within an MPI network, the resulting code will even be capable of solving the problem in parallel."
+
+----------------------------------------------------------------------------
+
+3.) Fourth paragraph under "Parallelizing software with MPI"
+
+"Splitting up the mesh is slightly, though not much more complicated"
+
+Needs a comma
+
+"Splitting up the mesh is slightly, though not much more, complicated"
+
+----------------------------------------------------------------------------
+
+4.) Sentence in third to last paragraph in "Paralellizing software with MPI"
+
+"Collectives allow us to write programs where not every copy of the executable is doing something completely different (this would be incredibly difficult to program) but where in essence all copies are doing the same thing (though on different data) for themselves, running through the same blocks of code; then they communicate data through collectives; and then go back to doing something for themselves again running through the same blocks of data.
+
+Needed some touching up.
+
+"Collectives allow us to write programs where not every copy of the executable is doing something completely different (this would be incredibly difficult to program) but where all copies are doing the same thing (though on different data) for themselves, running through the same blocks of code; then they communicate data through collectives and then go back to doing something for themselves again running through the same blocks of data."
+
+
+
+
+
+
+PULL REQUEST NOTES
+- you propose a set of changes
+- github.com/dealii/dealii (upstream)
+  - master branch
+- github.com/singima/dealii (fork)
+  - some_branch
+- 
+
+
+
+
+
+

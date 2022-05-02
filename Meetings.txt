@@ -1,0 +1,12 @@
+*********************************
+Meeting 1/20
+*********************************
+
+- First project is to extend linear solvers in deal.II
+- We jsut went over the solve() documentation, need to look at it more
+  and be more familiar with C++ notation
+
+- Another idea is to implement the concept of null spaces in deal.II
+
+- Next week we'll be talking about MPI, BRING UP NOTES AND HAVE DEAL.II
+  AT THE READY SEAN!!!!

@@ -1,0 +1,10 @@
+/home/sean/Spring22_RA_Work/material_id_work/default_id/step-3/CMakeFiles/rebuild_cache.dir
+/home/sean/Spring22_RA_Work/material_id_work/default_id/step-3/CMakeFiles/edit_cache.dir
+/home/sean/Spring22_RA_Work/material_id_work/default_id/step-3/CMakeFiles/strip_comments.dir
+/home/sean/Spring22_RA_Work/material_id_work/default_id/step-3/CMakeFiles/distclean.dir
+/home/sean/Spring22_RA_Work/material_id_work/default_id/step-3/CMakeFiles/runclean.dir
+/home/sean/Spring22_RA_Work/material_id_work/default_id/step-3/CMakeFiles/release.dir
+/home/sean/Spring22_RA_Work/material_id_work/default_id/step-3/CMakeFiles/debug.dir
+/home/sean/Spring22_RA_Work/material_id_work/default_id/step-3/CMakeFiles/run.dir
+/home/sean/Spring22_RA_Work/material_id_work/default_id/step-3/CMakeFiles/info.dir
+/home/sean/Spring22_RA_Work/material_id_work/default_id/step-3/CMakeFiles/step-3.dir
